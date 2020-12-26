@@ -332,3 +332,30 @@ img {
     font-size: 25px;
   }
 }
+
+@media (max-width: 740px) {
+
+  .contact .grid,
+  .about .grid,
+  .services .grid,
+  .footer .grid{
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact .grid>*:first-child,
+  .contact .grid>*:last-child{
+    grid-column: 1;
+  }
+
+.contact .card{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.info {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+}
