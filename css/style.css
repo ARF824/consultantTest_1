@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 h1{
-  font-size: 50px;
+  font-size: 35px;
 }
 
 p {
@@ -49,6 +49,10 @@ img {
 .navbar {
   background-color: #fff;
   height: 160px;
+}
+
+.navbar h1{
+  font-size: 50px;
 }
 
 .navbar .flex {
@@ -178,6 +182,27 @@ img {
   font-weight: bold;
 }
 
+
+
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
+  border: 0;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  max-width: 290px;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.contact-form .form-control {
+  margin: 10px 0;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-bottom: 2px rgb(233, 255, 0) solid;
+}
+
 .contact-inner .container{
   padding: 50px;
 }
@@ -273,6 +298,10 @@ img {
 }
 
 @media (max-width:840px) {
+  p {
+    font-size: 18px;
+  }
+
   .navbar .container{
     padding: 0 10px;
   }
