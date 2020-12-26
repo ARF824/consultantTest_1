@@ -61,7 +61,8 @@ img {
 
 .navbar ul {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
 }
 
